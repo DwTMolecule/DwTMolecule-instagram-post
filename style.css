@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+
+div{
+    background-color: white;
+    margin: auto;
+}
+.post{
+    width: 500px;
+    height: 600px;
+    
+}
+.post-header{
+    display:flex;
+}
+.post-header-right{
+    background-color: white;
+    display: inline-block;
+    margin-right: 0;
+    margin: 7px;
+    margin-left: inherit;
+    
+}
+.post-header-left{
+     margin: 0;
+}
+
+.post-header-center h2{
+     margin:0px;
+}
+.post-header-center h4{
+     margin: 2px;
+}
+
+.post-header-center{
+     margin:0;
+
+}
+.post-image img{
+     width: 100%;
+     height: 300px;
+}
+
+.post-icons i {
+    margin:0,5px;
+}
+
+.post-icons i:last-child{
+    margin-left: 360px;    
+}
+
+.post-icons{
+    font-size: 25px;
+}
